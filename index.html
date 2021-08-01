@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="section">
+            <div class="container">
+                <div class="order">
+                    <h1 class="order__title">Список отчетов</h1>
+                    <div class="order__main">
+                        <ul class="order__list">
+                            <li class="order__item">
+                                <div class="order__desc row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                    <div class="order__info">
+                                        <div class="order__info-number">Отчет №325867543Ф</div>
+                                        <div class="order__info-text">По налоговым выплатам</div>
+                                    </div>
+                                    <div class="order__status">
+                                        <div class="order__status-icon">
+                                            <img src="./icons/check.svg" alt="">
+                                        </div>
+                                        <div class="order__status-text">Сформирован</div>
+                                    </div>
+                                    <div class="order__date">
+                                        <span>с</span> 27.08.2021 <span>по</span> 27.08.2022
+                                    </div>
+                                    <button class="order__list-btn">
+                                        <div class="order__list-btn-icon">
+                                            <img src="./icons/download.svg" alt="">
+                                        </div>
+                                        Скачать
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="order__item order__item--nested">
+                                <div class="order__desc row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                    <div class="order__info">
+                                        <div class="order__info-number">Отчет №325867543Ф</div>
+                                        <div class="order__info-text">По налоговым выплатам</div>
+                                    </div>
+                                    <div class="order__status">
+                                        <div class="order__status-icon">
+                                            <img src="./icons/check.svg" alt="">
+                                        </div>
+                                        <div class="order__status-text">Сформирован</div>
+                                    </div>
+                                    <div class="order__date">
+                                        <span>с</span> 27.08.2021 <span>по</span> 27.08.2022
+                                    </div>
+                                    <button class="order__list-btn">
+                                        <div class="order__list-btn-icon">
+                                            <img src="./icons/download.svg" alt="">
+                                        </div>
+                                        Скачать
+                                    </button>
+                                </div>
+                                <div class="order__nested-desc">
+                                    <ul class="order__nested-list">
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status order__nested-status--rejected">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/cross.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Отклонено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="order__nested-btn">
+                                        <div class="order__nested-btn-text">Подробнее</div>
+                                        <div class="order__nested-btn-icon">
+                                            <img src="./icons/arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="order__item order__item--nested">
+                                <div class="order__desc row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                    <div class="order__info">
+                                        <div class="order__info-number">Отчет №325867543Ф</div>
+                                        <div class="order__info-text">По налоговым выплатам</div>
+                                    </div>
+                                    <div class="order__status">
+                                        <div class="order__status-icon">
+                                            <img src="./icons/check.svg" alt="">
+                                        </div>
+                                        <div class="order__status-text">Сформирован</div>
+                                    </div>
+                                    <div class="order__date">
+                                        <span>с</span> 27.08.2021 <span>по</span> 27.08.2022
+                                    </div>
+                                    <button class="order__list-btn">
+                                        <div class="order__list-btn-icon">
+                                            <img src="./icons/download.svg" alt="">
+                                        </div>
+                                        Скачать
+                                    </button>
+                                </div>
+                                <div class="order__nested-desc">
+                                    <ul class="order__nested-list">
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status order__nested-status--rejected">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/cross.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Отклонено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="order__nested-item">
+                                            <div class="order__nested-wrap row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                                <div class="order__nested-status">
+                                                    <div class="order__nested-status-icon">
+                                                        <img src="./icons/mark.svg" alt="">
+                                                    </div>
+                                                    <div class="order__nested-status-text">Одобрено</div>
+                                                </div>
+                                                <div class="order__nested-name">
+                                                    Марков Игорь Викторович
+                                                </div>
+                                                <div class="order__nested-city">
+                                                    г. Москва
+                                                </div>
+                                                <div class="order__nested-date">
+                                                    20.12.1971
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="order__nested-btn">
+                                        <div class="order__nested-btn-text">Подробнее</div>
+                                        <div class="order__nested-btn-icon">
+                                            <img src="./icons/arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="order__item order__item--expectation">
+                                <div class="order__desc row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                    <div class="order__info">
+                                        <div class="order__info-number">Отчет №325867543Ф</div>
+                                        <div class="order__info-text">По налоговым выплатам</div>
+                                    </div>
+                                    <div class="order__status">
+                                        <div class="order__status-icon">
+                                            <img src="./icons/spiner.svg" alt="">
+                                        </div>
+                                        <div class="order__status-text">Сформирован</div>
+                                    </div>
+                                    <div class="order__date">
+                                        <span>с</span> 27.08.2021 <span>по</span> 27.08.2022
+                                    </div>
+                                    <button class="order__list-btn">
+                                        <div class="order__list-btn-icon">
+                                            <img src="./icons/update.svg" alt="">
+                                        </div>
+                                        Обновить
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="order__item order__item--rejected">
+                                <div class="order__desc row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                    <div class="order__info">
+                                        <div class="order__info-number">Отчет №325867543Ф</div>
+                                        <div class="order__info-text">По налоговым выплатам</div>
+                                    </div>
+                                    <div class="order__status">
+                                        <div class="order__status-icon">
+                                            <img src="./icons/error.svg" alt="">
+                                        </div>
+                                        <div class="order__status-text">Не сформирован</div>
+                                    </div>
+                                    <div class="order__date">
+                                        <span>с</span> 27.08.2021 <span>по</span> 27.08.2022
+                                    </div>
+                                    <button class="order__list-btn">
+                                        Повторить
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="order__item order__item--removed">
+                                <div class="order__desc row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                    <div class="order__info">
+                                        <div class="order__info-number">Отчет №325867543Ф</div>
+                                        <div class="order__info-text">По налоговым выплатам</div>
+                                    </div>
+                                    <div class="order__status">
+                                        <div class="order__status-icon">
+                                            <img src="./icons/clock.svg" alt="">
+                                        </div>
+                                        <div class="order__status-text">Не актуален</div>
+                                    </div>
+                                    <div class="order__date">
+                                        <span>с</span> 27.08.2021 <span>по</span> 27.08.2022
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="order__button-wrap">
+                        <button class="order__button">Сформатировать новый</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
